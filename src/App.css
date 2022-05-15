@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+img {
+  max-width: 200px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.Article h1{
+  color: #056579;
+  font-size: 40px;
+}
+.Timer{
+  font-size: 20px;
+  color: rgb(12, 62, 63);
+  font-weight: bold;
+}
+.Mange{
+  color: rgb(102, 2, 124);
+}
+.Timer input{
+  margin-left: 10px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.Mange-input{
+  background-color: rgb(210, 177, 218) !important;
+}
+.Timer button{
+  background: rgb(12, 62, 63);
+  margin-left: 10px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+.Mange-button{
+  background-color: rgb(102, 2, 124) !important;
+}
