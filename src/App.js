@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Article from './article.js';
-
+import Quites from './Quites.js';
 import TimerMnger from './TimerMnger.js';
 const articles = [
 	{
@@ -27,18 +27,13 @@ const articles = [
 function App() {
 	return (
 		<div className="App">
-			{articles.map((article) => (
-				
-					<Article
-						key={article.title}
-						title={article.title}
-						content={article.content}
-						image={article.image}
-					/>
-				
-      ))}
-      <hr />
+			<Quites />
+			<hr />
 			<TimerMnger />
+			<hr />
+			{articles.map((article) => (
+				<Article key={article.title} title={article.title} content={article.content} image={article.image} />
+			))}
 		</div>
 	);
 }
